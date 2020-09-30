@@ -1,0 +1,32 @@
+.intelDispl button{
+    height: 40px;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    border: none;
+    outline:none;
+    font-size: 17px;
+    padding-left: 10px;
+    z-index: 11;
+}
+
+.intelDispl button:hover{
+    background-color: rgb(192, 220, 248);
+    border: none;
+    outline:none;
+}
+
+.intelDispl button span{
+    display: none;
+    color: red;
+    
+    margin-right: 10px;
+    z-index: 15;
+}
+
+.intelDispl button:hover span{
+    display: flex;
+    float: right;
+    z-index: 15;
+}
+

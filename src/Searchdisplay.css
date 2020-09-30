@@ -1,0 +1,37 @@
+.searchBoxForm input:nth-child(1){
+    height: 30px;
+    width: 80%;
+    margin: 13px 0px 13px 13px;
+}
+
+
+.intelli{
+    position: absolute;
+    z-index: 5;
+    width: 40.1%;
+    margin-top:-10px ;
+    margin-left: 14px;
+    background-color: white;
+    box-shadow: 0 8px 6px -5px black;
+}
+
+.visibl{
+    display: none;
+}
+
+
+input{
+    outline: none;
+}
+
+#searchBtn{
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 12px;
+    height: 34px;
+    width: 130px;
+    background-color: white;
+    color:midnightblue;
+    font-size: 18px;
+    outline: none;
+}
